@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&family=Source+Sans+3&display=swap");
+
+/* main classes */
+html {
+  scroll-behavior: smooth;
+}
+header,
+main,
+footer {
+  color: #2c4058;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: auto;
+  box-sizing: border-box;
+  line-height: normal;
+}
+
+/* helper classes */
