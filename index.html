@@ -7,6 +7,30 @@
     <meta name="description" content="Explore the world with Monticello!" />
     <link rel="stylesheet" href="./Assets/style/reset.css" />
     <link rel="icon" type="image/x-icon" href="./Assets/icons/favicon.ico" />
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script> -->
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       rel="stylesheet"
       type="text/css"
@@ -126,6 +150,48 @@
           </div>
         </div>
       </nav>
+      <ul class="slider">
+        <li class="d-flex flex-column align-items-center">
+          <span class="main-slider_title white spacing-8 text-80 w-700 mb-19"
+            >SIMPLE & MODERN</span
+          >
+          <span class="main-slider_info white spacing-5_4 text-18"
+            >WE MAKE THE WORLD BEAUTIFUL EVERYDAY</span
+          >
+        </li>
+        <li class="d-flex flex-column align-items-center">
+          <span class="main-slider_title white spacing-8 text-80 w-700 mb-19"
+            >TIMELESS ELEGANCE</span
+          >
+          <span class="main-slider_info white spacing-5_4 text-18"
+            >CRAFTED WITH PRECISION</span
+          >
+        </li>
+        <li class="d-flex flex-column align-items-center">
+          <span class="main-slider_title white spacing-8 text-80 w-700 mb-19"
+            >INNOVATIVE DESIGN</span
+          >
+          <span class="main-slider_info white spacing-5_4 text-18"
+            >INSPIRING SPACES</span
+          >
+        </li>
+        <li class="d-flex flex-column align-items-center">
+          <span class="main-slider_title white spacing-8 text-80 w-700 mb-19">
+            NEW BEGINNINGS
+          </span>
+          <span class="main-slider_info white spacing-5_4 text-18">
+            CREATING TOMORROW TODAY
+          </span>
+        </li>
+        <li class="d-flex flex-column align-items-center">
+          <span class="main-slider_title white spacing-8 text-80 w-700 mb-19">
+            TIMELESS DESIGN
+          </span>
+          <span class="main-slider_info white spacing-5_4 text-18">
+            ELEVATING YOUR SPACES
+          </span>
+        </li>
+      </ul>
     </section>
     <section class="section-whatWeDo d-flex flex-column">
       <div>
@@ -139,28 +205,47 @@
         </div>
         <div class="d-flex flex-row mb-140">
           <img src="./Assets/img/trade-center.png" />
-          <div class="d-flex flex-column align-items-start justify-content-end">
-            <span>ONE WORLD</span> <span>TRADE CENTER</span
-            ><span
+          <div
+            class="d-flex flex-column align-items-start justify-content-end ml-70"
+          >
+            <span class="text-22">ONE WORLD</span>
+            <span class="w-700 text-44 mb-19">TRADE CENTER</span
+            ><span class="open-sans text-18 span-1 mb-41"
               >Increasing prosperity in our lives can be accomplished by having
               the right frame of mind. The truth is, our thoughts are very
               powerful.
             </span>
-            <button>MORE DETAILS</button>
-            <span>New York City, United States - 1776 feet </span>
+            <button class="mb-60">MORE DETAILS</button>
+            <span class="mb-25 text-italic black open-sans text-15">
+              <i
+                class="fa-solid fa-location-pin fa-sm"
+                style="color: #446488"
+              ></i>
+
+              New York City, United States - 1776 feet
+            </span>
           </div>
         </div>
       </div>
-      <div class="d-flex flex-row mb-140">
-        <div class="d-flex flex-column align-items-start justify-content-end">
-          <span>INTERNATIONAL</span> <span>COMMERCE CENTER</span
-          ><span
+      <div class="d-flex flex-row mb-140 justify-content-end">
+        <div
+          class="d-flex flex-column align-items-start justify-content-end mr-64"
+        >
+          <span class="text-22">INTERNATIONAL</span>
+          <span class="w-700 text-44 mb-19">COMMERCE CENTER</span
+          ><span class="open-sans text-18 span-1 mb-41"
             >Successful businesses have many things in common, today we'll look
             at the big 'R' of recognition and how a digital advertising network
             may help.
           </span>
-          <button>MORE DETAILS</button>
-          <span>Hong Kong - 1588 feet </span>
+          <button class="mb-60">MORE DETAILS</button>
+          <span class="mb-25 text-italic black open-sans text-15">
+            <i
+              class="fa-solid fa-location-pin fa-sm"
+              style="color: #446488"
+            ></i>
+            Hong Kong - 1588 feet
+          </span>
         </div>
         <img src="./Assets/img/commerce-center.png" />
       </div>
@@ -174,14 +259,220 @@
         />
         <div class="w-700 text-44 white mb-90">LATEST NEWS</div>
       </div>
+      <div class="container my-3">
+        <div class="row mx-auto my-auto w-80">
+          <div id="recipeCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner ml-25" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-md-4">
+                  <!-- from here -->
+                  <div class="card" style="width: 18rem">
+                    <img
+                      class="card-img-top"
+                      src="./Assets/img/news1.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-19 w-700">
+                        SEE THE UNMATCHED BEAUTY OF THE GREAT.
+                      </h5>
+                      <p class="card-text open-sans text-18 mb-38">
+                        Free directories: directories are perfect for customers
+                        that are searching for...
+                      </p>
+                      <div class="d-flex align-items-center gap-20">
+                        <img src="./Assets/img/user1.png" class="user-img" />
+                        <div>
+                          <span class="text-18 mb-6">ALJA BRUN</span
+                          ><span class="text-14 blueish">22 Jan 2022</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <!-- from here -->
+                  <div class="card" style="width: 18rem">
+                    <img
+                      class="card-img-top"
+                      src="./Assets/img/news2.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-19 w-700">
+                        EFFECTIVE ADVERTISING POINTERS.
+                      </h5>
+                      <p class="card-text open-sans text-18 mb-38">
+                        Having a home based business is a wonderful asset to
+                        your life...
+                      </p>
+                      <div class="d-flex align-items-center gap-20">
+                        <img src="./Assets/img/user2.png" class="user-img" />
+                        <div>
+                          <span class="text-18 mb-6">DOMINIC BARD</span
+                          ><span class="text-14 blueish">13 DEC 2021</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <!-- from here -->
+                  <div class="card" style="width: 18rem">
+                    <img
+                      class="card-img-top"
+                      src="./Assets/img/news3.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-19 w-700">
+                        HYPNOTIZE YOURSELF INTO THE GHOST.
+                      </h5>
+                      <p class="card-text open-sans text-18 mb-38 mb-38">
+                        There are many things that are important to catalog
+                        design...
+                      </p>
+                      <div class="d-flex align-items-center gap-20">
+                        <img src="./Assets/img/user3.png" class="user-img" />
+                        <div>
+                          <span class="text-18 mb-6">ALICE WARD</span
+                          ><span class="text-14 blueish">16 Feb 2022</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <!-- from here -->
+                  <div class="card" style="width: 18rem">
+                    <img
+                      class="card-img-top"
+                      src="./Assets/img/news1.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-19 w-700">
+                        SEE THE UNMATCHED BEAUTY OF THE GREAT.
+                      </h5>
+                      <p class="card-text open-sans text-18 mb-38">
+                        Free directories: directories are perfect for customers
+                        that are searching for...
+                      </p>
+                      <div class="d-flex align-items-center gap-20">
+                        <img src="./Assets/img/user1.png" class="user-img" />
+                        <div>
+                          <span class="text-18 mb-6">ALJA BRUN</span
+                          ><span class="text-14 blueish">22 Jan 2022</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <!-- from here -->
+                  <div class="card" style="width: 18rem">
+                    <img
+                      class="card-img-top"
+                      src="./Assets/img/news2.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-19 w-700">
+                        EFFECTIVE ADVERTISING POINTERS.
+                      </h5>
+                      <p class="card-text open-sans text-18 mb-38">
+                        Having a home based business is a wonderful asset to
+                        your life...
+                      </p>
+                      <div class="d-flex align-items-center gap-20">
+                        <img src="./Assets/img/user2.png" class="user-img" />
+                        <div>
+                          <span class="text-18 mb-6">DOMINIC BARD</span
+                          ><span class="text-14 blueish">13 DEC 2021</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <!-- from here -->
+                  <div class="card" style="width: 18rem">
+                    <img
+                      class="card-img-top"
+                      src="./Assets/img/news3.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-19 w-700">
+                        HYPNOTIZE YOURSELF INTO THE GHOST.
+                      </h5>
+                      <p class="card-text open-sans text-18 mb-38">
+                        There are many things that are important to catalog
+                        design...
+                      </p>
+                      <div class="d-flex align-items-center gap-20">
+                        <img src="./Assets/img/user3.png" class="user-img" />
+                        <div>
+                          <span class="text-18 mb-6">ALICE WARD</span
+                          ><span class="text-14 blueish">16 Feb 2022</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev w-auto"
+              href="#recipeCarousel"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon bg-transparent border border-white rounded-circle"
+                aria-hidden="true"
+              ></span>
+            </a>
+            <a
+              class="carousel-control-next w-auto"
+              href="#recipeCarousel"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon bg-transparent border border-white rounded-circle"
+                aria-hidden="true"
+              ></span>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="section-gallery">
       <div class="d-flex flex-column align-items-center">
         <img src="./Assets/img/line.png" alt="line" class="line mt-135 mb-30" />
         <div class="w-700 text-44 mb-90">GALLERY</div>
       </div>
-      <div></div>
-      <button>SEE MORE</button>
+      <div class="grid-container">
+        <div class="item1"><img src="./Assets/img/gallery1.png" /></div>
+        <div class="item2"><img src="./Assets/img/gallery2.png" /></div>
+        <div class="item3"><img src="./Assets/img/gallery3.png" /></div>
+        <div class="item4"><img src="./Assets/img/gallery4.png" /></div>
+        <div class="item5"><img src="./Assets/img/gallery5.png" /></div>
+      </div>
+      <div class="d-flex justify-content-center mt-60 mb-140">
+        <button>SEE MORE</button>
+      </div>
     </section>
     <footer class="section-footer">
       <div class="google-map"></div>
@@ -192,25 +483,98 @@
             alt="line"
             class="line mt-60 mb-30"
           />
-          <div class="w-700 text-44">GET IN TOUCH</div>
+          <div class="w-700 text-44 mb-41">GET IN TOUCH</div>
         </div>
-        <div>
-          <div class="contact-details">
-            <div>91 Nolan Extensions Suite 670</div>
-            <div>+001 356-868-2454</div>
-            <div>montichello@service.com</div>
-            <div>From 07:05AM to 19:30PM</div>
+        <div class="d-flex flex-row justify-content-center pb-68">
+          <div class="contact-details lh-26 d-flex flex-column gap-20 mr-54">
+            <div class="">
+              <i
+                class="fa-solid fa-location-pin fa-xs mr-14"
+                style="color: #be90ff"
+              ></i>
+
+              91 Nolan Extensions Suite 670
+            </div>
+            <div class="">
+              <i
+                class="fa-solid fa-phone fa-xs mr-14"
+                style="color: #be90ff"
+              ></i
+              >+001 356-868-2454
+            </div>
+            <div class="">
+              <i
+                class="fa-solid fa-envelope fa-xs mr-14"
+                style="color: #be90ff"
+              ></i>
+              montichello@service.com
+            </div>
+            <div class="">
+              <i
+                class="fa-solid fa-clock fa-xs mr-14"
+                style="color: #be90ff"
+              ></i
+              >From 07:05AM to 19:30PM
+            </div>
           </div>
-          <div class="contact-form">
-            <input placeholder="Mollie Medina" />
-            <input placeholder="Email" />
+          <div>
+            <div class="contact-form d-flex flex-column">
+              <input placeholder="Mollie Medina" class="mb-33" />
+              <input placeholder="Email" class="mb-30" />
+            </div>
+            <div class="d-flex justify-content-end">
+              <button>SUBMIT</button>
+            </div>
           </div>
-          <button>SUBMIT</button>
         </div>
       </div>
-      <div class="footer"></div>
+      <div
+        class="footer d-flex flex-row justify-content-around align-items-center"
+      >
+        <div>
+          <img
+            src="./Assets/img/Logo.png"
+            alt="Logo"
+            class="mb-41 footer-logo"
+          />
+          <span class="white text-14">Copyrights © 2020 Montichello</span>
+        </div>
+        <div class="d-flex gap-20">
+          <img src="./Assets/icons/fb.png" alt="" />
+          <img src="./Assets/icons/x.png" alt="" />
+          <img src="./Assets/icons/instagram.png" alt="" />
+        </div>
+      </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- //old ones -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
   </body>
 </html>

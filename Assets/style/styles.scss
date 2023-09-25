@@ -49,6 +49,27 @@ footer {
   .navbar-contact {
     margin-left: 70px;
   }
+
+  .slider {
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 670px; /* Adjust to control the vertical centering */
+
+    .slick-dots {
+      //   position: absolute;
+      top: 230px;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      gap: 35px;
+    }
+    .slick-dots li.slick-active button {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+    }
+  }
 }
 
 .section-whatWeDo {
@@ -62,7 +83,7 @@ footer {
   background-image: url(/Monticello/Assets/img/Background.png);
   background-size: cover;
   background-position: center;
-  height: 1035px;
+  height: 875px;
 }
 /* helper classes */
 span {
@@ -86,4 +107,118 @@ button {
   background-color: transparent;
   border: 1px solid #2c4058;
   font-family: "Montserrat", sans-serif;
+  line-height: normal;
+}
+
+.span-1 {
+  line-height: 30px;
+  width: 470px;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item5 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.section-footer {
+  .contact {
+    background-color: aqua;
+    margin: 0 auto;
+    width: 771px;
+  }
+  input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #2c4058;
+    outline: none;
+    width: 310px;
+    height: 40px;
+  }
+  .footer {
+    background-image: url(/Monticello/Assets/img/Background.png);
+    background-size: cover;
+    background-position: center;
+    height: 549px;
+    &-logo {
+      width: 241px;
+    }
+  }
 }

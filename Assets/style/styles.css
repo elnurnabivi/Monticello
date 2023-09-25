@@ -8,8 +8,20 @@
 .text-14 {
   font-size: 14px; }
 
+.text-15 {
+  font-size: 15px; }
+
 .text-16 {
   font-size: 16px; }
+
+.text-17 {
+  font-size: 17px; }
+
+.text-18 {
+  font-size: 18px; }
+
+.text-19 {
+  font-size: 19px; }
 
 .text-20 {
   font-size: 20px; }
@@ -29,11 +41,29 @@
 .text-48 {
   font-size: 48px; }
 
+.text-80 {
+  font-size: 80px; }
+
 .spacing-1_5 {
   letter-spacing: 1.5px; }
 
+.spacing-8 {
+  letter-spacing: 8px; }
+
 .spacing-3_36 {
   letter-spacing: 3.36px; }
+
+.spacing-5_4 {
+  letter-spacing: 5.4px; }
+
+.open-sans {
+  font-family: "Open Sans", sans-serif; }
+
+.text-italic {
+  font-style: italic; }
+
+.blueish {
+  color: #55b7ff; }
 
 .w-700 {
   font-weight: 700; }
@@ -44,8 +74,20 @@
 .text-14 {
   font-size: 14px; }
 
+.text-15 {
+  font-size: 15px; }
+
 .text-16 {
   font-size: 16px; }
+
+.text-17 {
+  font-size: 17px; }
+
+.text-18 {
+  font-size: 18px; }
+
+.text-19 {
+  font-size: 19px; }
 
 .text-20 {
   font-size: 20px; }
@@ -65,12 +107,33 @@
 .text-48 {
   font-size: 48px; }
 
+.text-80 {
+  font-size: 80px; }
+
 .spacing-1_5 {
   letter-spacing: 1.5px; }
+
+.spacing-8 {
+  letter-spacing: 8px; }
 
 .spacing-3_36 {
   letter-spacing: 3.36px; }
 
+.spacing-5_4 {
+  letter-spacing: 5.4px; }
+
+.open-sans {
+  font-family: "Open Sans", sans-serif; }
+
+.text-italic {
+  font-style: italic; }
+
+.blueish {
+  color: #55b7ff; }
+
+.mb-6 {
+  margin-bottom: 6px; }
+
 .mb-8 {
   margin-bottom: 8px; }
 
@@ -86,14 +149,26 @@
 .mb-16 {
   margin-bottom: 16px; }
 
+.mb-19 {
+  margin-bottom: 19px; }
+
 .mb-23 {
   margin-bottom: 23px; }
+
+.mb-25 {
+  margin-bottom: 25px; }
 
 .mb-30 {
   margin-bottom: 30px; }
 
+.mb-33 {
+  margin-bottom: 33px; }
+
 .mb-38 {
   margin-bottom: 38px; }
+
+.mb-41 {
+  margin-bottom: 41px; }
 
 .mb-45 {
   margin-bottom: 45px; }
@@ -104,6 +179,12 @@
 .mb-50 {
   margin-bottom: 50px; }
 
+.mb-60 {
+  margin-bottom: 60px; }
+
+.pb-68 {
+  padding-bottom: 68px; }
+
 .mb-90 {
   margin-bottom: 90px; }
 
@@ -113,14 +194,23 @@
 .mb-140 {
   margin-bottom: 140px; }
 
+.ml-25 {
+  margin-left: 25px; }
+
 .ml-62 {
   margin-left: 62px; }
+
+.ml-70 {
+  margin-left: 70px; }
 
 .ml-90 {
   margin-left: 90px; }
 
 .mr-14 {
   margin-right: 14px; }
+
+.mr-64 {
+  margin-right: 64px; }
 
 .mr-90 {
   margin-right: 90px; }
@@ -160,10 +250,16 @@
 
 .mr-25 {
   margin-right: 25px; }
+
+.mr-54 {
+  margin-right: 54px; }
 
 .mr-10 {
   margin-right: 10px; }
 
+.mb-6 {
+  margin-bottom: 6px; }
+
 .mb-8 {
   margin-bottom: 8px; }
 
@@ -179,14 +275,26 @@
 .mb-16 {
   margin-bottom: 16px; }
 
+.mb-19 {
+  margin-bottom: 19px; }
+
 .mb-23 {
   margin-bottom: 23px; }
+
+.mb-25 {
+  margin-bottom: 25px; }
 
 .mb-30 {
   margin-bottom: 30px; }
 
+.mb-33 {
+  margin-bottom: 33px; }
+
 .mb-38 {
   margin-bottom: 38px; }
+
+.mb-41 {
+  margin-bottom: 41px; }
 
 .mb-45 {
   margin-bottom: 45px; }
@@ -197,6 +305,12 @@
 .mb-50 {
   margin-bottom: 50px; }
 
+.mb-60 {
+  margin-bottom: 60px; }
+
+.pb-68 {
+  padding-bottom: 68px; }
+
 .mb-90 {
   margin-bottom: 90px; }
 
@@ -206,14 +320,23 @@
 .mb-140 {
   margin-bottom: 140px; }
 
+.ml-25 {
+  margin-left: 25px; }
+
 .ml-62 {
   margin-left: 62px; }
+
+.ml-70 {
+  margin-left: 70px; }
 
 .ml-90 {
   margin-left: 90px; }
 
 .mr-14 {
   margin-right: 14px; }
+
+.mr-64 {
+  margin-right: 64px; }
 
 .mr-90 {
   margin-right: 90px; }
@@ -253,6 +376,9 @@
 
 .mr-25 {
   margin-right: 25px; }
+
+.mr-54 {
+  margin-right: 54px; }
 
 .mr-10 {
   margin-right: 10px; }
@@ -294,6 +420,22 @@ footer {
     gap: 50px; }
   .section-main .navbar-contact {
     margin-left: 70px; }
+  .section-main .slider {
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+    /* Adjust to control the vertical centering */ }
+    .section-main .slider .slick-dots {
+      top: 230px;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      gap: 35px; }
+    .section-main .slider .slick-dots li.slick-active button {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 50%; }
 
 .section-whatWeDo .line {
   width: 100px;
@@ -303,7 +445,7 @@ footer {
   background-image: url(/Monticello/Assets/img/Background.png);
   background-size: cover;
   background-position: center;
-  height: 1035px; }
+  height: 875px; }
 
 /* helper classes */
 span {
@@ -323,4 +465,100 @@ button {
   color: black;
   background-color: transparent;
   border: 1px solid #2c4058;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  line-height: normal; }
+
+.span-1 {
+  line-height: 30px;
+  width: 470px; }
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none; }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block; } }
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex; }
+
+/* display 3 */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%); }
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%); } }
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0); }
+
+.w-80 {
+  width: 80%; }
+
+.user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center; }
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3; }
+
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2; }
+
+.item3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2; }
+
+.item4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.item5 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.section-footer .contact {
+  background-color: aqua;
+  margin: 0 auto;
+  width: 771px; }
+
+.section-footer input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #2c4058;
+  outline: none;
+  width: 310px;
+  height: 40px; }
+
+.section-footer .footer {
+  background-image: url(/Monticello/Assets/img/Background.png);
+  background-size: cover;
+  background-position: center;
+  height: 549px; }
+  .section-footer .footer-logo {
+    width: 241px; }
