@@ -541,24 +541,37 @@ button {
   grid-row-start: 2;
   grid-row-end: 3; }
 
-.section-footer .contact {
-  background-color: aqua;
-  margin: 0 auto;
-  width: 771px; }
+.section-footer {
+  position: relative; }
+  .section-footer #map {
+    height: 670px; }
+  .section-footer .contact {
+    background-color: white;
+    margin: 0 auto;
+    width: 771px;
+    position: absolute;
+    top: 31%;
+    right: 24%; }
+  .section-footer input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #2c4058;
+    outline: none;
+    width: 310px;
+    height: 40px; }
+  .section-footer .footer {
+    background-image: url(/Monticello/Assets/img/Background.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px; }
+    .section-footer .footer-logo {
+      width: 241px; }
 
-.section-footer input {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid #2c4058;
-  outline: none;
-  width: 310px;
-  height: 40px; }
-
-.section-footer .footer {
-  background-image: url(/Monticello/Assets/img/Background.png);
-  background-size: cover;
-  background-position: center;
-  height: 549px; }
-  .section-footer .footer-logo {
-    width: 241px; }
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; }
+  .gallery-container .pic-size {
+    width: 700px; }

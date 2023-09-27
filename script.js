@@ -1,5 +1,4 @@
 $(document).ready(() => {
-  console.log("hey");
   $("#recipeCarousel").carousel({
     interval: 10000,
   });
@@ -28,4 +27,22 @@ $(document).ready(() => {
     prevArrow: "", // Set to an empty string to hide the left arrow
     nextArrow: "",
   });
+
+  $(function initMap() {
+    const location = { lat: 50.84, lng: 4.3 };
+    const $mapSelector = $("#map");
+    const map = new google.maps.Map($mapSelector.get(0), {
+      zoom: 8,
+      center: location,
+    });
+    const marker = new google.maps.Marker({
+      position: location,
+      map: map,
+    });
+  });
+});
+
+const seeMore = document.querySelector(".btn-seemore");
+seeMore.addEventListener("click", function () {
+  window.location.href = "./gallery.html";
 });

@@ -53,7 +53,7 @@
     <title>Monticello</title>
   </head>
   <body>
-    <section class="section-main">
+    <section class="section-main" id="h-main">
       <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
         <div
           class="container-fluid d-flex align-items-center justify-content-around custom-navbar_2"
@@ -95,7 +95,7 @@
               </li>
               <!-- add active -->
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="#h-projects"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="9"
@@ -110,7 +110,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="#h-news"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="9"
@@ -125,7 +125,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="#h-contact"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="9"
@@ -144,9 +144,15 @@
           <div
             class="collapse navbar-collapse d-flex align-items-center justify-content-center gap-20 navbar-contact"
           >
-            <img src="./Assets/icons/fb.png" alt="" />
-            <img src="./Assets/icons/x.png" alt="" />
-            <img src="./Assets/icons/instagram.png" alt="" />
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="./Assets/icons/fb.png" alt="Facebook page" />
+            </a>
+            <a href="https://www.x.com/" target="_blank"
+              ><img src="./Assets/icons/x.png" alt="X page"
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="./Assets/icons/instagram.png" alt="Instagram page" />
+            </a>
           </div>
         </div>
       </nav>
@@ -193,7 +199,7 @@
         </li>
       </ul>
     </section>
-    <section class="section-whatWeDo d-flex flex-column">
+    <section class="section-whatWeDo d-flex flex-column" id="h-projects">
       <div>
         <div class="d-flex flex-column align-items-center">
           <img
@@ -215,7 +221,7 @@
               the right frame of mind. The truth is, our thoughts are very
               powerful.
             </span>
-            <button class="mb-60">MORE DETAILS</button>
+            <a href="#h-contact"><button class="mb-60">MORE DETAILS</button></a>
             <span class="mb-25 text-italic black open-sans text-15">
               <i
                 class="fa-solid fa-location-pin fa-sm"
@@ -238,7 +244,7 @@
             at the big 'R' of recognition and how a digital advertising network
             may help.
           </span>
-          <button class="mb-60">MORE DETAILS</button>
+          <a href="#h-contact"><button class="mb-60">MORE DETAILS</button></a>
           <span class="mb-25 text-italic black open-sans text-15">
             <i
               class="fa-solid fa-location-pin fa-sm"
@@ -250,7 +256,7 @@
         <img src="./Assets/img/commerce-center.png" />
       </div>
     </section>
-    <section class="section-news">
+    <section class="section-news" id="h-news">
       <div class="d-flex flex-column align-items-center">
         <img
           src="./Assets/img/line-white.png"
@@ -471,11 +477,11 @@
         <div class="item5"><img src="./Assets/img/gallery5.png" /></div>
       </div>
       <div class="d-flex justify-content-center mt-60 mb-140">
-        <button>SEE MORE</button>
+        <button class="btn-seemore">SEE MORE</button>
       </div>
     </section>
-    <footer class="section-footer">
-      <div class="google-map"></div>
+    <footer class="section-footer" id="h-contact">
+      <div id="map" class="map"></div>
       <div class="contact">
         <div class="d-flex flex-column align-items-center">
           <img
@@ -514,12 +520,12 @@
                 class="fa-solid fa-clock fa-xs mr-14"
                 style="color: #be90ff"
               ></i
-              >From 07:05AM to 19:30PM
+              >From 08:00AM to 7:30PM
             </div>
           </div>
           <div>
             <div class="contact-form d-flex flex-column">
-              <input placeholder="Mollie Medina" class="mb-33" />
+              <input placeholder="Your name" class="mb-33" />
               <input placeholder="Email" class="mb-30" />
             </div>
             <div class="d-flex justify-content-end">
@@ -532,21 +538,32 @@
         class="footer d-flex flex-row justify-content-around align-items-center"
       >
         <div>
-          <img
-            src="./Assets/img/Logo.png"
-            alt="Logo"
-            class="mb-41 footer-logo"
-          />
+          <a href="#"
+            ><img
+              src="./Assets/img/Logo.png"
+              alt="Logo"
+              class="mb-41 footer-logo"
+          /></a>
           <span class="white text-14">Copyrights © 2020 Montichello</span>
         </div>
         <div class="d-flex gap-20">
-          <img src="./Assets/icons/fb.png" alt="" />
-          <img src="./Assets/icons/x.png" alt="" />
-          <img src="./Assets/icons/instagram.png" alt="" />
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="./Assets/icons/fb.png" alt="Facebook page" />
+          </a>
+          <a href="https://www.x.com/" target="_blank"
+            ><img src="./Assets/icons/x.png" alt="X page"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="./Assets/icons/instagram.png" alt="Instagram page" />
+          </a>
         </div>
       </div>
     </footer>
-
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+    ></script>
     <script
       type="text/javascript"
       src="//code.jquery.com/jquery-1.11.0.min.js"
@@ -575,6 +592,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
     <script src="./script.js"></script>
   </body>
 </html>

@@ -198,10 +198,17 @@ button {
 }
 
 .section-footer {
+  position: relative;
+  #map {
+    height: 670px;
+  }
   .contact {
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
     width: 771px;
+    position: absolute;
+    top: 31%;
+    right: 24%;
   }
   input {
     border-top: none;
@@ -216,9 +223,22 @@ button {
     background-image: url(/Monticello/Assets/img/Background.png);
     background-size: cover;
     background-position: center;
-    height: 549px;
+    height: 500px;
     &-logo {
       width: 241px;
     }
   }
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  .pic-size {
+    width: 700px;
+  }
+}
+
+@media screen {
 }
