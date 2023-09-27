@@ -406,8 +406,7 @@ footer {
   height: 800px; }
   .section-main .custom-navbar {
     background-color: transparent !important;
-    margin: 0 150px; }
-  .section-main .custom-navbar2 {
+    margin: 0 150px;
     display: flex;
     justify-content: space-around; }
   .section-main .nav-link {
@@ -575,3 +574,86 @@ button {
   gap: 20px; }
   .gallery-container .pic-size {
     width: 700px; }
+
+.menu-toggle {
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+  padding-right: 20px; }
+
+@media (max-width: 700px) {
+  .section-main .custom-logo {
+    width: 180px;
+    height: auto; }
+  .section-main .navbar-brand img {
+    margin-left: 0px; }
+  .section-main .menu-toggle {
+    display: block; }
+  .section-main .navbar-nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background-color: #55b7ff;
+    top: 94px;
+    left: -100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    transition: all 0.5s; }
+  .section-main nav ul {
+    padding-top: 50px; }
+  .section-main .menu-toggle:hover ~ ul {
+    display: flex;
+    left: 0; }
+  .section-main ul:hover {
+    display: flex;
+    left: 0; }
+  .section-main .nav-link {
+    font-size: 20px; }
+  .section-main .social-media {
+    display: none; }
+  .section-main .navbar-mobile {
+    margin-top: 15px; }
+  .section-main .slick-dots {
+    right: 1%; }
+  .section-main .main-slider_title {
+    font-size: 30px; }
+  .section-main .main-slider_info {
+    font-size: 20px; }
+  .section-whatWeDo_firstElement {
+    display: flex;
+    flex-direction: column; }
+    .section-whatWeDo_firstElement img {
+      width: 100%;
+      height: auto; }
+  .section-whatWeDo_secondElement {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px; }
+    .section-whatWeDo_secondElement img {
+      width: 100%;
+      height: auto; }
+  .section-whatWeDo .span-1 {
+    width: auto; }
+  .section-gallery .grid-container {
+    display: none; }
+  .section-footer input {
+    width: 300px; }
+  .section-footer .contact {
+    width: 330px;
+    position: relative;
+    top: 0%;
+    right: -5%; }
+    .section-footer .contact .mobile-line {
+      width: auto; }
+  .section-footer .contact-mobile {
+    display: flex;
+    flex-direction: column; }
+  .section-footer .submit-mobile {
+    display: flex;
+    justify-content: center !important;
+    align-items: center; }
+  .section-footer .footer {
+    flex-direction: column; } }
