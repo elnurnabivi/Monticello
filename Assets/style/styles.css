@@ -465,7 +465,12 @@ button {
   background-color: transparent;
   border: 1px solid #2c4058;
   font-family: "Montserrat", sans-serif;
-  line-height: normal; }
+  line-height: normal;
+  transition: background-color 0.5s, color 0.5s; }
+
+button:hover {
+  background-color: #55b7ff;
+  color: #fff; }
 
 .span-1 {
   line-height: 30px;
