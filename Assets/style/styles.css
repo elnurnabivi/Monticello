@@ -593,7 +593,9 @@ button:hover {
   .section-main .navbar-brand img {
     margin-left: 0px; }
   .section-main .menu-toggle {
-    display: block; }
+    display: block;
+    padding-right: 0;
+    padding-left: 15px; }
   .section-main .navbar-nav {
     position: fixed;
     z-index: 1;
@@ -642,6 +644,10 @@ button:hover {
       height: auto; }
   .section-whatWeDo .span-1 {
     width: auto; }
+  .section-news .carousel {
+    right: 25px; }
+  .section-news .carousel-control-next {
+    right: -50px; }
   .section-gallery .grid-container {
     display: none; }
   .section-footer input {
@@ -653,12 +659,14 @@ button:hover {
     right: -5%; }
     .section-footer .contact .mobile-line {
       width: auto; }
-  .section-footer .contact-mobile {
+    .section-footer .contact .contact-form {
+      margin-top: 30px; }
+  .contact-mobile {
     display: flex;
     flex-direction: column; }
-  .section-footer .submit-mobile {
+  .submit-mobile {
     display: flex;
     justify-content: center !important;
     align-items: center; }
-  .section-footer .footer {
+  .footer {
     flex-direction: column; } }

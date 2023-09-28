@@ -263,6 +263,8 @@ button:hover {
     }
     .menu-toggle {
       display: block;
+      padding-right: 0;
+      padding-left: 15px;
     }
     .navbar-nav {
       position: fixed;
@@ -334,6 +336,14 @@ button:hover {
     }
   }
 
+  .section-news {
+    .carousel {
+      right: 25px;
+    }
+    .carousel-control-next {
+      right: -50px;
+    }
+  }
   .section-gallery {
     .grid-container {
       display: none;
@@ -352,18 +362,21 @@ button:hover {
       .mobile-line {
         width: auto;
       }
+      .contact-form {
+        margin-top: 30px;
+      }
     }
-    .contact-mobile {
-      display: flex;
-      flex-direction: column;
-    }
-    .submit-mobile {
-      display: flex;
-      justify-content: center !important;
-      align-items: center;
-    }
-    .footer {
-      flex-direction: column;
-    }
+  }
+  .contact-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .submit-mobile {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .footer {
+    flex-direction: column;
   }
 }
