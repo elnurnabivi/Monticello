@@ -594,7 +594,7 @@ button {
     z-index: 1;
     width: 100%;
     height: 100vh;
-    background-color: #55b7ff;
+    background-image: linear-gradient(#7e5aff, #55b7ff);
     top: 94px;
     left: -100%;
     text-align: center;
