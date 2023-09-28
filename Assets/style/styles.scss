@@ -316,9 +316,14 @@ button:hover {
     &_firstElement {
       display: flex;
       flex-direction: column;
+      margin-bottom: 50px;
       img {
         width: 100%;
         height: auto;
+        margin-bottom: 30px;
+      }
+      div {
+        margin-left: 20px;
       }
     }
 

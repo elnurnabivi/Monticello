@@ -631,10 +631,14 @@ button:hover {
     font-size: 20px; }
   .section-whatWeDo_firstElement {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-bottom: 50px; }
     .section-whatWeDo_firstElement img {
       width: 100%;
-      height: auto; }
+      height: auto;
+      margin-bottom: 30px; }
+    .section-whatWeDo_firstElement div {
+      margin-left: 20px; }
   .section-whatWeDo_secondElement {
     display: flex;
     flex-direction: column;
