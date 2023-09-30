@@ -24,7 +24,7 @@ $(document).ready(() => {
     autoplay: true,
     autoplaySpeed: 3700,
     infinite: true,
-    prevArrow: "", // Set to an empty string to hide the left arrow
+    prevArrow: "",
     nextArrow: "",
   });
 

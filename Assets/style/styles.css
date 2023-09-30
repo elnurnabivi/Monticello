@@ -487,7 +487,6 @@ button:hover {
 .carousel-inner .carousel-item-prev {
   display: flex; }
 
-/* display 3 */
 @media (min-width: 768px) {
   .carousel-inner .carousel-item-right.active,
   .carousel-inner .carousel-item-next {
