@@ -1,0 +1,386 @@
+@import "./fonts";
+@import "./_fonts";
+@import "./margins";
+@import "./_margins";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&family=Source+Sans+3&display=swap");
+
+/* main classes */
+html {
+  scroll-behavior: smooth;
+}
+header,
+main,
+body,
+footer {
+  color: #2c4058;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: auto;
+  box-sizing: border-box;
+  line-height: normal;
+}
+
+.section-main {
+  background-image: url(/Monticello/Assets/img/main-imagepng.png);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  .custom-navbar {
+    background-color: transparent !important;
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-link {
+    color: white;
+  }
+  .custom-logo {
+    width: 241px;
+    height: 54px;
+    margin-right: 70px;
+  }
+  .navbar-nav {
+    gap: 50px;
+    // width: 600px;
+  }
+  .navbar-contact {
+    margin-left: 70px;
+  }
+
+  .slider {
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 670px; /* Adjust to control the vertical centering */
+
+    .slick-dots {
+      //   position: absolute;
+      top: 230px;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      gap: 35px;
+    }
+    .slick-dots li.slick-active button {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+    }
+  }
+}
+
+.section-whatWeDo {
+  .line {
+    width: 100px;
+    height: 1px;
+  }
+}
+
+.section-news {
+  background-image: url(/Monticello/Assets/img/Background.png);
+  background-size: cover;
+  background-position: center;
+  height: 875px;
+}
+/* helper classes */
+span {
+  display: block;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+button {
+  width: 190px;
+  height: 50px;
+  flex-shrink: 0;
+  font-size: 14px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid #2c4058;
+  font-family: "Montserrat", sans-serif;
+  line-height: normal;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover {
+  background-color: #55b7ff;
+  color: #fff;
+}
+
+.span-1 {
+  line-height: 30px;
+  width: 470px;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item5 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.section-footer {
+  position: relative;
+  #map {
+    height: 670px;
+  }
+  .contact {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 771px;
+    position: absolute;
+    top: 31%;
+    right: 24%;
+  }
+  input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #2c4058;
+    outline: none;
+    width: 310px;
+    height: 40px;
+  }
+  .footer {
+    background-image: url(/Monticello/Assets/img/Background.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    &-logo {
+      width: 241px;
+    }
+  }
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  .pic-size {
+    width: 700px;
+  }
+}
+
+.menu-toggle {
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+  padding-right: 20px;
+}
+
+@media (max-width: 700px) {
+  .section-main {
+    .custom-logo {
+      width: 180px;
+      height: auto;
+    }
+    .navbar-brand img {
+      margin-left: 0px;
+    }
+    .menu-toggle {
+      display: block;
+      padding-right: 0;
+      padding-left: 15px;
+    }
+    .navbar-nav {
+      position: fixed;
+      z-index: 1;
+      width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(#7e5aff, #55b7ff);
+      top: 94px;
+      left: -100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      transition: all 0.5s;
+    }
+    nav ul {
+      padding-top: 50px;
+    }
+    .menu-toggle:hover ~ ul {
+      display: flex;
+      left: 0;
+    }
+    ul:hover {
+      display: flex;
+      left: 0;
+    }
+    .nav-link {
+      font-size: 20px;
+    }
+    .social-media {
+      display: none;
+    }
+    .navbar-mobile {
+      margin-top: 15px;
+    }
+    .slick-dots {
+      //   width: auto;
+      right: 1%;
+    }
+    .main-slider_title {
+      font-size: 30px;
+    }
+    .main-slider_info {
+      font-size: 20px;
+    }
+  }
+
+  .section-whatWeDo {
+    &_firstElement {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 50px;
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+      }
+      div {
+        margin-left: 20px;
+      }
+    }
+
+    &_secondElement {
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .span-1 {
+      width: auto;
+    }
+  }
+
+  .section-news {
+    .carousel {
+      right: 25px;
+    }
+    .carousel-control-next {
+      right: -50px;
+    }
+  }
+  .section-gallery {
+    .grid-container {
+      display: none;
+    }
+  }
+
+  .section-footer {
+    input {
+      width: 300px;
+    }
+    .contact {
+      width: 330px;
+      position: relative;
+      top: 0%;
+      right: -5%;
+      .mobile-line {
+        width: auto;
+      }
+      .contact-form {
+        margin-top: 30px;
+      }
+    }
+  }
+  .contact-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .submit-mobile {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .footer {
+    flex-direction: column;
+  }
+}
